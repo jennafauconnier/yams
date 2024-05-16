@@ -35,10 +35,11 @@ Once all pastries are won, the game ends, and the winners are displayed in a tab
 #### Redirecting to Winners Table with State
 When the game ends and winners are determined, the frontend navigates to the winners table:
 
-
+### Code advice
+The good code is in gameTest, don't check game.
 
 ## Routes
-- `/game` : Main game interface.
+- `/gametest` : Main game interface.
 - `/winners` : Displays the winners and the pastries they have won.
 
 
